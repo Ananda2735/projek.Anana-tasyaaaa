@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #f8b400;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #575757;
+}
+section {
+    padding: 2em;
+}
+.promo {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.slider img {
+    width: 100%;
+    max-height: 400px;
+    display: block;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2em;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f4f4f4;
+}
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.form-container input, .form-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.social-links {
+    text-align: center;
+    margin-top: 2em;
+}
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
